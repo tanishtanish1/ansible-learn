@@ -26,7 +26,7 @@
 
     - name: copy roboshop configuration
       ansible.builtin.copy:
-        src: "{{ playbook_dir }}/roboshop.conf"
+        src: /roboshop.conf
         dest: /etc/nginx/default.d/roboshop.conf
 
 
