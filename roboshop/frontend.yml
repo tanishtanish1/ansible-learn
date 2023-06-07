@@ -1,7 +1,7 @@
 
 ---
 - name: Configure Frontend Server
-  hosts: 172.31.94.225
+  hosts: 172.31.85.99
   become: true
 
   tasks:
