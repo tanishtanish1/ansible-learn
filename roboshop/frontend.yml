@@ -1,7 +1,7 @@
 
 ---
 - name: Configure Frontend Server
-  hosts: localhost
+  hosts: 172.31.94.225
   become: true
 
   tasks:
