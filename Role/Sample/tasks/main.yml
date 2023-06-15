@@ -1,0 +1,4 @@
+---
+- name: print hellow world
+  ansible.builtin.debug:
+    msg: hello world from role
