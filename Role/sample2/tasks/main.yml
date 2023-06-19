@@ -1,3 +1,0 @@
-- name: demo2 hello india
-  ansible.builtin.debug:
-    masg: print hello india
