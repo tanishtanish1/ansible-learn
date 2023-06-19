@@ -1,0 +1,12 @@
+# how to load anoherfile
+- name: load another file
+  hosts: all
+  tasks:
+    - name: print hello world
+      ansible.builtin.debug:
+        msg: Hello world
+
+    - name: include task
+      ansible.builtin.include_tasks:
+        file: universe.yml
+
